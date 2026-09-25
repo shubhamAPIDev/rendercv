@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
-  name: Shubham Gupta — Senior DevOps Engineer
-  location: Frankfurt, Germany · Blue Card eligible (no sponsorship required) · Available immediately
+  name: Shubham Gupta
+  location: Frankfurt, Germany · _Blue Card Eligible (No Sponsorship Required)_
   email: guptashubham131@gmail.com
   phone: "+49 1575 5754701"
   sections:
@@ -26,6 +26,7 @@ cv:
             health checks. Reduced manual operational work by ~60%.
           - Managed Azure AD RBAC, OAuth 2.0, NSG rules, and VPN access.
             Handled credential rotation across environments.
+
       - company: SSG Consulting Pvt. Ltd. (Rencata)
         position: DevOps Engineer
         location: Chennai, India
@@ -40,6 +41,7 @@ cv:
             Reduced incident detection time to under 5 minutes.
           - Managed secrets and certificate rotation through Azure Key Vault across
             development and production environments.
+
       - company: Accenture PLC
         position: DevOps Engineer
         location: India
@@ -52,6 +54,7 @@ cv:
             and ARM templates.
           - Containerized legacy applications with Docker and deployed to Kubernetes.
             Resolved environment drift.
+
       - company: Tech Mahindra Pvt. Ltd.
         position: DevOps Engineer
         location: India
@@ -64,17 +67,20 @@ cv:
             patching, health checks, and failover.
           - Standardized server configuration using Python and Bash scripts.
             Eliminated manual setup errors.
+
     education:
       - institution: RGPV, Bhopal, India
         area: Mechanical Engineering
         degree: B.E.
         start_date: 2012
         end_date: 2016
+
     skills:
       - label: Cloud & Infrastructure
-        details: Azure, Terraform, Docker, Kubernetes
+        details: Azure, GCP, Terraform, Docker, Kubernetes
       - label: DevOps & Automation
         details: CI/CD, Azure DevOps, Python, Linux, Git, Monitoring
+
 design:
   theme: engineeringresumes
   page:
