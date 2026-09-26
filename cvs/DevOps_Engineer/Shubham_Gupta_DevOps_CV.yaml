@@ -1,7 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Shubham Gupta
-  location: Frankfurt, Germany · _Blue Card Eligible (No Sponsorship Required)_
+  headline: Senior DevOps Engineer
+  location: Frankfurt, Germany
   email: guptashubham131@gmail.com
   phone: "+49 1575 5754701"
   sections:
@@ -17,7 +18,7 @@ cv:
           - Provisioned and managed Azure infrastructure (VMs, VNets, AKS) using
             Terraform modules with Git-backed state management.
           - Operated production Kubernetes clusters with Docker workloads.
-           Handled pod scaling, rolling updates, and traffic spike response.
+            Handled pod scaling, rolling updates, and traffic spike response.
           - Responded to on-call alerts, performed root cause analysis, and
             implemented fixes to prevent recurring incidents.
           - Configured Azure Monitor and Application Insights alerting.
@@ -26,7 +27,6 @@ cv:
             health checks. Reduced manual operational work by ~60%.
           - Managed Azure AD RBAC, OAuth 2.0, NSG rules, and VPN access.
             Handled credential rotation across environments.
-
       - company: SSG Consulting Pvt. Ltd. (Rencata)
         position: DevOps Engineer
         location: Chennai, India
@@ -41,7 +41,6 @@ cv:
             Reduced incident detection time to under 5 minutes.
           - Managed secrets and certificate rotation through Azure Key Vault across
             development and production environments.
-
       - company: Accenture PLC
         position: DevOps Engineer
         location: India
@@ -54,7 +53,6 @@ cv:
             and ARM templates.
           - Containerized legacy applications with Docker and deployed to Kubernetes.
             Resolved environment drift.
-
       - company: Tech Mahindra Pvt. Ltd.
         position: DevOps Engineer
         location: India
@@ -67,16 +65,32 @@ cv:
             patching, health checks, and failover.
           - Standardized server configuration using Python and Bash scripts.
             Eliminated manual setup errors.
-
     education:
       - institution: RGPV, Bhopal, India
-        area: Mechanical Engineering
-        degree: B.E.
-        start_date: 2012
-        end_date: 2016
-
+        area: ''
+        degree: Bachelor of Engineering (B.E.)
+        date: 2012 – 2016
     skills:
       - label: Cloud & Infrastructure
-        details: Azure, GCP, Terraform, Docker, Kubernetes
+        details: Azure, Terraform, Docker, Kubernetes
       - label: DevOps & Automation
         details: CI/CD, Azure DevOps, Python, Linux, Git, Monitoring
+    work_authorization:
+      - label: Work Authorization
+        details: EU Blue Card eligible — no sponsorship required · Available immediately
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    show_top_note: false
+  header:
+    connections:
+      phone_number_format: international
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    pdf_path: rendercv_output/Shubham_Gupta_DevOps_CV.pdf
+    dont_generate_html: true
+    dont_generate_markdown: true
+  pdf_title: Shubham Gupta - DevOps Engineer CV
