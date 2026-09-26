@@ -2,69 +2,62 @@
 cv:
   name: Shubham Gupta
   headline: Cloud Engineer
-  location: Frankfurt, Germany
+  location: Frankfurt, Germany · Blue Card Eligible — No Sponsorship Required
   email: guptashubham131@gmail.com
   phone: "+49 1575 5754701"
   sections:
     experience:
       - company: Tech Mahindra Pvt. Ltd.
-        position: Senior DevOps Engineer
+        position: Senior Cloud Engineer
         location: Muscat, Oman & India
         start_date: 2023-07
         end_date: 2025-09
         highlights:
-          - Maintained CI/CD pipelines on Azure DevOps and Jenkins for 50+ microservices.
-            Debugged build failures and managed production releases.
-          - Provisioned and managed Azure infrastructure (VMs, VNets, AKS) using
-            Terraform modules with Git-backed state management.
-          - Operated production Kubernetes clusters with Docker workloads.
-            Handled pod scaling, rolling updates, and traffic spike response.
-          - Responded to on-call alerts, performed root cause analysis, and
-            implemented fixes to prevent recurring incidents.
-          - Configured Azure Monitor and Application Insights alerting.
-            Tuned thresholds and tracked platform uptime metrics.
-          - Developed Python and Bash automation scripts for log rotation and
-            health checks. Reduced manual operational work by ~60%.
-          - Managed Azure AD RBAC, OAuth 2.0, NSG rules, and VPN access.
-            Handled credential rotation across environments.
+          - Designed and managed Azure infrastructure (VNets, NSGs, Load
+            Balancers, AKS) serving 50+ microservices.
+          - Led migration of on-premise infrastructure to Azure with Terraform.
+          - Configured private endpoints, VPN gateways, and NSG rules to secure
+            backend traffic.
+          - Set up Azure Monitor and Application Insights dashboards and alerts.
+          - Implemented automated scaling policies for AKS workloads.
+          - Optimized cloud costs through right-sizing and automated shutdown of
+            non-production environments.
+          - Managed Azure AD RBAC and OAuth 2.0 policies across subscriptions.
       - company: SSG Consulting Pvt. Ltd. (Rencata)
-        position: DevOps Engineer
+        position: Cloud Engineer
         location: Chennai, India
         start_date: 2020-07
         end_date: 2023-06
         highlights:
-          - Built CI/CD pipelines and Azure cloud infrastructure for a financial
-            services platform supporting 100+ microservices.
-          - Managed Kubernetes orchestration with Helm charts and service mesh
-            configurations for high-throughput API workloads.
-          - Deployed Prometheus and Grafana monitoring with SLO-based alerting.
-            Reduced incident detection time to under 5 minutes.
-          - Managed secrets and certificate rotation through Azure Key Vault across
-            development and production environments.
+          - Provisioned Azure infrastructure for financial services with Terraform,
+            including VNets, NSGs, and storage accounts.
+          - Deployed and managed AKS clusters hosting 100+ microservices.
+          - Configured network peering and load balancing for high-availability
+            services.
+          - Built cost monitoring with Azure Cost Management and tagging policies,
+            reducing monthly spend.
       - company: Accenture PLC
-        position: DevOps Engineer
+        position: Cloud Engineer
         location: India
         start_date: 2019-04
         end_date: 2019-09
         highlights:
-          - Built CI/CD pipelines in Azure DevOps, Git, and Jenkins with automated
-            rollback for enterprise integration systems.
-          - Provisioned Azure compute, networking, and storage using Terraform
-            and ARM templates.
-          - Containerized legacy applications with Docker and deployed to Kubernetes.
-            Resolved environment drift.
+          - Managed Azure compute, networking, and storage with Terraform and ARM
+            templates.
+          - Configured Azure Monitor and Log Analytics for centralized logging.
+          - Implemented NSG and firewall rules to segment network traffic.
       - company: Tech Mahindra Pvt. Ltd.
-        position: DevOps Engineer
+        position: Cloud Engineer
         location: India
         start_date: 2016-12
         end_date: 2019-04
         highlights:
-          - Migrated on-premise infrastructure to Azure using Terraform.
-            Reduced environment provisioning from days to under an hour.
-          - Managed Linux production servers and Azure resources with automated
-            patching, health checks, and failover.
-          - Standardized server configuration using Python and Bash scripts.
-            Eliminated manual setup errors.
+          - Migrated on-premise infrastructure to Azure with Terraform, cutting
+            provisioning from days to under an hour.
+          - Configured virtual networks, subnets, and VPN connections linking
+            cloud to on-premise data centers.
+          - Managed Linux VMs and storage accounts with backup and disaster
+            recovery policies.
     education:
       - institution: RGPV, Bhopal, India
         area: ''
@@ -72,7 +65,7 @@ cv:
         date: 2012 – 2016
     skills:
       - label: Cloud & Infrastructure
-        details: Azure, Terraform, Docker, Kubernetes
+        details: Azure, GCP, Terraform, Docker, Kubernetes
       - label: DevOps & Automation
         details: CI/CD, Azure DevOps, Python, Linux, Git, Monitoring
 design:
