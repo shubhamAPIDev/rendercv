@@ -8,63 +8,52 @@ cv:
   sections:
     experience:
       - company: Tech Mahindra Pvt. Ltd.
-        position: Senior DevOps Engineer
+        position: Senior Infrastructure Engineer
         location: Muscat, Oman & India
         start_date: 2023-07
         end_date: 2025-09
         highlights:
-          - Maintained CI/CD pipelines on Azure DevOps and Jenkins for 50+ microservices.
-            Debugged build failures and managed production releases.
-          - Provisioned and managed Azure infrastructure (VMs, VNets, AKS) using
-            Terraform modules with Git-backed state management.
-          - Operated production Kubernetes clusters with Docker workloads.
-            Handled pod scaling, rolling updates, and traffic spike response.
-          - Responded to on-call alerts, performed root cause analysis, and
-            implemented fixes to prevent recurring incidents.
-          - Configured Azure Monitor and Application Insights alerting.
-            Tuned thresholds and tracked platform uptime metrics.
-          - Developed Python and Bash automation scripts for log rotation and
-            health checks. Reduced manual operational work by ~60%.
-          - Managed Azure AD RBAC, OAuth 2.0, NSG rules, and VPN access.
-            Handled credential rotation across environments.
+          - Managed Linux production servers and Azure infrastructure for enterprise
+            platforms.
+          - Automated server provisioning with Terraform, removing manual setup
+            across dev, staging, and prod.
+          - Configured network security with NSGs, VPNs, and private endpoints.
+          - Handled on-call incidents with root cause analysis and post-mortems.
+          - Built preventive automation that stopped recurring outages.
+          - Managed backups and disaster recovery across Azure regions.
+          - Wrote Python and Bash scripts that cut daily manual ops work by half.
       - company: SSG Consulting Pvt. Ltd. (Rencata)
-        position: DevOps Engineer
+        position: Infrastructure Engineer
         location: Chennai, India
         start_date: 2020-07
         end_date: 2023-06
         highlights:
-          - Built CI/CD pipelines and Azure cloud infrastructure for a financial
-            services platform supporting 100+ microservices.
-          - Managed Kubernetes orchestration with Helm charts and service mesh
-            configurations for high-throughput API workloads.
-          - Deployed Prometheus and Grafana monitoring with SLO-based alerting.
-            Reduced incident detection time to under 5 minutes.
-          - Managed secrets and certificate rotation through Azure Key Vault across
-            development and production environments.
+          - Managed Linux servers for financial services, handling patching,
+            scaling, and hardening.
+          - Built VNets, load balancers, and firewalls with Terraform.
+          - Automated daily tasks with Python and Bash to reduce human errors.
+          - Set up Prometheus and Grafana monitoring for early issue detection.
       - company: Accenture PLC
-        position: DevOps Engineer
+        position: Infrastructure Engineer
         location: India
         start_date: 2019-04
         end_date: 2019-09
         highlights:
-          - Built CI/CD pipelines in Azure DevOps, Git, and Jenkins with automated
-            rollback for enterprise integration systems.
-          - Provisioned Azure compute, networking, and storage using Terraform
-            and ARM templates.
-          - Containerized legacy applications with Docker and deployed to Kubernetes.
-            Resolved environment drift.
+          - Provisioned Azure compute and networking with Terraform and ARM
+            templates.
+          - Maintained Linux servers with automated backup and recovery.
       - company: Tech Mahindra Pvt. Ltd.
-        position: DevOps Engineer
+        position: Infrastructure Engineer
         location: India
         start_date: 2016-12
         end_date: 2019-04
         highlights:
-          - Migrated on-premise infrastructure to Azure using Terraform.
-            Reduced environment provisioning from days to under an hour.
-          - Managed Linux production servers and Azure resources with automated
-            patching, health checks, and failover.
-          - Standardized server configuration using Python and Bash scripts.
-            Eliminated manual setup errors.
+          - Migrated on-premise infrastructure to Azure, cutting provisioning
+            from days to minutes.
+          - Managed Linux production servers with automated failover and health
+            monitoring.
+          - Configured VPN connections linking cloud resources to on-premise
+            systems.
     education:
       - institution: RGPV, Bhopal, India
         area: ''
@@ -72,7 +61,7 @@ cv:
         date: 2012 – 2016
     skills:
       - label: Cloud & Infrastructure
-        details: Azure, Terraform, Docker, Kubernetes
+        details: Azure, GCP, Terraform, Docker, Kubernetes
       - label: DevOps & Automation
         details: CI/CD, Azure DevOps, Python, Linux, Git, Monitoring
 design:
