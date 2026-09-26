@@ -75,9 +75,6 @@ cv:
         details: Azure, Terraform, Docker, Kubernetes
       - label: DevOps & Automation
         details: CI/CD, Azure DevOps, Python, Linux, Git, Monitoring
-    work_authorization:
-      - label: Work Authorization
-        details: EU Blue Card eligible — no sponsorship required · Available immediately
 design:
   theme: engineeringresumes
   page:
