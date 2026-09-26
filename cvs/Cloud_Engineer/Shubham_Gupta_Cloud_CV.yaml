@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Shubham Gupta
-  headline: Cloud Engineer
+  headline: Senior Cloud Engineer
   location: Frankfurt, Germany
   email: guptashubham131@gmail.com
   phone: "+49 1575 5754701"
@@ -68,6 +68,19 @@ cv:
         details: Azure, GCP, Terraform, Docker, Kubernetes
       - label: DevOps & Automation
         details: CI/CD, Azure DevOps, Python, Linux, Git, Monitoring
+    certifications:
+      - label: Microsoft Certified
+        details: Azure Administrator Associate (AZ-104), In Preparation
+      - label: Microsoft Certified
+        details: Azure Solutions Architect Expert (AZ-305), In Preparation
+    work_authorization:
+      - label: Work Authorization
+        details: EU Blue Card Eligible (No Sponsorship Required) | Available Immediately
+    languages:
+      - label: English
+        details: Fluent (IELTS 7.5)
+      - label: Hindi
+        details: Native
 design:
   theme: engineeringresumes
   page:

@@ -13,58 +13,57 @@ cv:
         start_date: 2023-07
         end_date: 2025-09
         highlights:
-          - Maintained CI/CD pipelines on Azure DevOps and Jenkins for 50+ microservices.
-            Debugged build failures and managed production releases.
-          - Provisioned and managed Azure infrastructure (VMs, VNets, AKS) using
-            Terraform modules with Git-backed state management.
-          - Operated production Kubernetes clusters with Docker workloads.
-            Handled pod scaling, rolling updates, and traffic spike response.
-          - Responded to on-call alerts, performed root cause analysis, and
-            implemented fixes to prevent recurring incidents.
-          - Configured Azure Monitor and Application Insights alerting.
-            Tuned thresholds and tracked platform uptime metrics.
-          - Developed Python and Bash automation scripts for log rotation and
-            health checks. Reduced manual operational work by ~60%.
-          - Managed Azure AD RBAC, OAuth 2.0, NSG rules, and VPN access.
-            Handled credential rotation across environments.
+          - Owned CI/CD pipelines on Azure DevOps and Jenkins for 50+
+            microservices.
+          - Debugged failing builds and unblocked production releases.
+          - Provisioned Azure infrastructure (VMs, VNets, AKS) with Terraform
+            modules.
+          - Operated Kubernetes clusters in production, scaling pods and rolling
+            out updates.
+          - Handled on-call rotations, diagnosing incidents and pushing permanent
+            fixes.
+          - Configured Azure Monitor and Application Insights alerts for uptime
+            tracking.
+          - Managed Azure AD access, OAuth 2.0 flows, and NSG rules across
+            environments.
+          - Wrote Python and Bash automation that cut manual ops work by ~60%.
       - company: SSG Consulting Pvt. Ltd. (Rencata)
         position: DevOps Engineer
         location: Chennai, India
         start_date: 2020-07
         end_date: 2023-06
         highlights:
-          - Built CI/CD pipelines and Azure cloud infrastructure for a financial
-            services platform supporting 100+ microservices.
-          - Managed Kubernetes orchestration with Helm charts and service mesh
-            configurations for high-throughput API workloads.
-          - Deployed Prometheus and Grafana monitoring with SLO-based alerting.
-            Reduced incident detection time to under 5 minutes.
-          - Managed secrets and certificate rotation through Azure Key Vault across
-            development and production environments.
+          - Built CI/CD pipeline templates reused across 100+ microservices at a
+            financial services firm.
+          - Packaged services with Helm charts and managed releases across dev,
+            staging, and prod.
+          - Deployed Prometheus and Grafana from scratch, cutting incident
+            detection to under 5 minutes.
+          - Rotated secrets and certificates through Azure Key Vault.
       - company: Accenture PLC
         position: DevOps Engineer
         location: India
         start_date: 2019-04
         end_date: 2019-09
         highlights:
-          - Built CI/CD pipelines in Azure DevOps, Git, and Jenkins with automated
-            rollback for enterprise integration systems.
-          - Provisioned Azure compute, networking, and storage using Terraform
-            and ARM templates.
-          - Containerized legacy applications with Docker and deployed to Kubernetes.
-            Resolved environment drift.
+          - Containerized legacy applications with Docker and moved them to
+            Kubernetes.
+          - Set up Azure compute, networking, and storage with Terraform and ARM
+            templates.
+          - Added automated rollback to Jenkins pipelines to cut recovery time
+            after failed deployments.
       - company: Tech Mahindra Pvt. Ltd.
         position: DevOps Engineer
         location: India
         start_date: 2016-12
         end_date: 2019-04
         highlights:
-          - Migrated on-premise infrastructure to Azure using Terraform.
-            Reduced environment provisioning from days to under an hour.
-          - Managed Linux production servers and Azure resources with automated
-            patching, health checks, and failover.
-          - Standardized server configuration using Python and Bash scripts.
-            Eliminated manual setup errors.
+          - Migrated on-premise workloads to Azure, cutting environment setup
+            from days to under an hour.
+          - Managed Linux production servers with automated patching and
+            failover.
+          - Standardized server configuration with Bash scripts, eliminating
+            manual setup errors.
     education:
       - institution: RGPV, Bhopal, India
         area: ''
@@ -72,9 +71,22 @@ cv:
         date: 2012 – 2016
     skills:
       - label: Cloud & Infrastructure
-        details: Azure, Terraform, Docker, Kubernetes
+        details: Azure, GCP, Terraform, Docker, Kubernetes
       - label: DevOps & Automation
         details: CI/CD, Azure DevOps, Python, Linux, Git, Monitoring
+    certifications:
+      - label: Microsoft Certified
+        details: Azure Administrator Associate (AZ-104), In Preparation
+      - label: Microsoft Certified
+        details: DevOps Engineer Expert (AZ-400), In Preparation
+    work_authorization:
+      - label: Work Authorization
+        details: EU Blue Card Eligible (No Sponsorship Required) | Available Immediately
+    languages:
+      - label: English
+        details: Fluent (IELTS 7.5)
+      - label: Hindi
+        details: Native
 design:
   theme: engineeringresumes
   page:
