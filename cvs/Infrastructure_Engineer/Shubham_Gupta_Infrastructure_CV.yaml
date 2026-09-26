@@ -13,14 +13,14 @@ cv:
         start_date: 2023-07
         end_date: 2025-09
         highlights:
-          - Managed Linux production servers and Azure infrastructure for enterprise
-            platforms.
-          - Automated server provisioning with Terraform, removing manual setup
-            across dev, staging, and prod.
-          - Configured network security with NSGs, VPNs, and private endpoints.
+          - Managed Linux production servers and Azure infrastructure for
+            enterprise platforms.
           - Handled on-call incidents with root cause analysis and post-mortems.
           - Built preventive automation that stopped recurring outages.
+          - Configured network security with NSGs and private endpoints.
           - Managed backups and disaster recovery across Azure regions.
+          - Automated server provisioning with Terraform, removing manual setup
+            across environments.
           - Wrote Python and Bash scripts that cut daily manual ops work by half.
       - company: SSG Consulting Pvt. Ltd. (Rencata)
         position: Infrastructure Engineer
@@ -28,32 +28,33 @@ cv:
         start_date: 2020-07
         end_date: 2023-06
         highlights:
-          - Managed Linux servers for financial services, handling patching,
-            scaling, and hardening.
-          - Built VNets, load balancers, and firewalls with Terraform.
-          - Automated daily tasks with Python and Bash to reduce human errors.
+          - Built VNets, load balancers, and firewalls for a financial services
+            platform.
+          - Administered Linux servers, handling patching, scaling, and
+            hardening.
           - Set up Prometheus and Grafana monitoring for early issue detection.
+          - Automated certificate renewals and health checks with Bash.
       - company: Accenture PLC
         position: Infrastructure Engineer
         location: India
         start_date: 2019-04
         end_date: 2019-09
         highlights:
-          - Provisioned Azure compute and networking with Terraform and ARM
-            templates.
-          - Maintained Linux servers with automated backup and recovery.
+          - Provisioned Azure compute and networking with ARM templates.
+          - Configured centralized logging with Log Analytics.
+          - Automated backup and recovery for production servers.
       - company: Tech Mahindra Pvt. Ltd.
         position: Infrastructure Engineer
         location: India
         start_date: 2016-12
         end_date: 2019-04
         highlights:
-          - Migrated on-premise infrastructure to Azure, cutting provisioning
-            from days to minutes.
-          - Managed Linux production servers with automated failover and health
-            monitoring.
-          - Configured VPN connections linking cloud resources to on-premise
+          - Migrated on-premise servers to Azure, cutting provisioning from days
+            to minutes.
+          - Configured site-to-site VPN linking cloud resources to on-premise
             systems.
+          - Set up automated failover and health monitoring for critical
+            workloads.
     education:
       - institution: RGPV, Bhopal, India
         area: ''
@@ -104,7 +105,7 @@ design:
       main_column: "INSTITUTION, DEGREE_WITH_AREA -- LOCATION\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
     experience_entry:
-      main_column: "POSITION, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+      main_column: "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
   header:
     connections:

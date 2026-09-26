@@ -13,14 +13,14 @@ cv:
         start_date: 2023-07
         end_date: 2025-09
         highlights:
-          - Designed and managed Azure infrastructure (VNets, NSGs, Load
-            Balancers, AKS) serving 50+ microservices.
-          - Led migration of on-premise infrastructure to Azure with Terraform.
-          - Configured private endpoints, VPN gateways, and NSG rules to secure
-            backend traffic.
+          - Designed Azure infrastructure (VNets, NSGs, Load Balancers, AKS)
+            serving 50+ microservices.
+          - Built Terraform modules for compute, networking, and AKS provisioning.
+          - Configured private endpoints and NSG rules to secure backend traffic.
           - Set up Azure Monitor and Application Insights dashboards and alerts.
-          - Implemented automated scaling policies for AKS workloads.
-          - Optimized cloud costs through right-sizing and automated shutdown of
+          - Implemented autoscaling policies for AKS workloads during traffic
+            spikes.
+          - Cut cloud costs through right-sizing and automated shutdown of
             non-production environments.
           - Managed Azure AD RBAC and OAuth 2.0 policies across subscriptions.
       - company: SSG Consulting Pvt. Ltd. (Rencata)
@@ -29,12 +29,12 @@ cv:
         start_date: 2020-07
         end_date: 2023-06
         highlights:
-          - Provisioned Azure infrastructure for financial services with Terraform,
-            including VNets, NSGs, and storage accounts.
-          - Deployed and managed AKS clusters hosting 100+ microservices.
+          - Deployed and managed AKS clusters hosting 100+ microservices for a
+            financial services platform.
           - Configured network peering and load balancing for high-availability
-            services.
-          - Built cost monitoring with Azure Cost Management and tagging policies,
+            workloads.
+          - Managed storage accounts, backup policies, and access tiers.
+          - Built cost monitoring with Azure Cost Management and tagging,
             reducing monthly spend.
       - company: Accenture PLC
         position: Cloud Engineer
@@ -42,22 +42,21 @@ cv:
         start_date: 2019-04
         end_date: 2019-09
         highlights:
-          - Managed Azure compute, networking, and storage with Terraform and ARM
-            templates.
-          - Configured Azure Monitor and Log Analytics for centralized logging.
-          - Implemented NSG and firewall rules to segment network traffic.
+          - Provisioned Azure compute and networking with ARM templates.
+          - Configured Log Analytics workspaces for centralized logging.
+          - Implemented firewall rules to segment network traffic.
       - company: Tech Mahindra Pvt. Ltd.
         position: Cloud Engineer
         location: India
         start_date: 2016-12
         end_date: 2019-04
         highlights:
-          - Migrated on-premise infrastructure to Azure with Terraform, cutting
-            provisioning from days to under an hour.
-          - Configured virtual networks, subnets, and VPN connections linking
-            cloud to on-premise data centers.
-          - Managed Linux VMs and storage accounts with backup and disaster
-            recovery policies.
+          - Migrated on-premise workloads to Azure, cutting environment setup
+            from days to under an hour.
+          - Configured site-to-site VPN connections linking Azure to on-premise
+            data centers.
+          - Set up disaster recovery with Azure Site Recovery and geo-redundant
+            storage.
     education:
       - institution: RGPV, Bhopal, India
         area: ''
@@ -108,7 +107,7 @@ design:
       main_column: "INSTITUTION, DEGREE_WITH_AREA -- LOCATION\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
     experience_entry:
-      main_column: "POSITION, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+      main_column: "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
   header:
     connections:

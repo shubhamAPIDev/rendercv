@@ -13,38 +13,39 @@ cv:
         start_date: 2023-07
         end_date: 2025-09
         highlights:
-          - Managed a Kubernetes platform used by 50+ engineering teams for daily
-            microservice deployments.
+          - Managed a Kubernetes platform used by 50+ engineering teams to deploy
+            and run their microservices.
           - Built reusable Terraform modules that cut infrastructure setup from
             days to minutes.
           - Debugged failed deployments and pod crashes across dev and production
             clusters.
-          - Rolled out cluster updates and scaling changes with zero downtime.
+          - Rolled out cluster upgrades and node scaling with zero downtime.
           - Configured Azure Monitor and Prometheus alerts to catch issues before
             users reported them.
+          - Managed secrets and access control through Azure Key Vault and RBAC.
           - Automated repetitive ops tasks with Python and Bash, cutting manual
             work by about half.
-          - Managed secrets and access control through Azure Key Vault and RBAC.
       - company: SSG Consulting Pvt. Ltd. (Rencata)
         position: Platform Engineer
         location: Chennai, India
         start_date: 2020-07
         end_date: 2023-06
         highlights:
-          - Built a deployment platform for financial services handling 100+
+          - Built the CI/CD platform for a financial services product with 100+
             microservices.
-          - Created standardized Terraform and K8s templates for common service
-            patterns.
-          - Managed credential rotation in Azure Key Vault across all environments.
-          - Wrote onboarding docs and runbooks for developers joining the platform.
+          - Created Helm chart templates for common service patterns.
+          - Set up artifact versioning and rollback for safer releases.
+          - Wrote onboarding docs and runbooks for developers joining the
+            platform.
       - company: Accenture PLC
         position: Platform Engineer
         location: India
         start_date: 2019-04
         end_date: 2019-09
         highlights:
-          - Maintained platform infrastructure for enterprise integration systems.
-          - Standardized deployment patterns used across multiple teams.
+          - Maintained shared build infrastructure for enterprise integration
+            teams.
+          - Improved pipeline caching, cutting build times across projects.
           - Configured platform-level rate limiting and error handling.
       - company: Tech Mahindra Pvt. Ltd.
         position: Platform Engineer
@@ -52,9 +53,9 @@ cv:
         start_date: 2016-12
         end_date: 2019-04
         highlights:
-          - Migrated legacy systems to a modern platform architecture.
-          - Built reusable deployment components adopted by multiple teams.
-          - Created standardized logging and error handling for distributed services.
+          - Migrated legacy deployment scripts to standardized Jenkins pipelines.
+          - Created centralized logging for distributed services.
+          - Built a shared error-handling library adopted by multiple teams.
     education:
       - institution: RGPV, Bhopal, India
         area: ''
@@ -105,7 +106,7 @@ design:
       main_column: "INSTITUTION, DEGREE_WITH_AREA -- LOCATION\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
     experience_entry:
-      main_column: "POSITION, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+      main_column: "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
   header:
     connections:

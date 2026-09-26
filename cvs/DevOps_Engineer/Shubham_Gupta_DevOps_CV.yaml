@@ -114,7 +114,7 @@ design:
       main_column: "INSTITUTION, DEGREE_WITH_AREA -- LOCATION\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
     experience_entry:
-      main_column: "POSITION, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+      main_column: "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
   header:
     connections:
