@@ -83,6 +83,21 @@ design:
   page:
     size: a4
     show_top_note: false
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.6in
+    right_margin: 0.6in
+  typography:
+    line_spacing: 0.55em
+    font_size:
+      body: 9pt
+      name: 22pt
+  sections:
+    space_between_regular_entries: 0.3cm
+    space_between_text_based_entries: 0.12cm
+  entries:
+    highlights:
+      space_between_items: 0.04cm
   header:
     connections:
       phone_number_format: international
